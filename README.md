@@ -1,4 +1,4 @@
-# Snag_CodeReview
+<h1>Snag_CodeReview</h1>
 <h2>Usage</h2>
   <p>Ensure Assignment.py is in your working directory then run:<code>python Assignment.py <i>path/to/file.csv</i> <i>column=value</i></code>from the command line.</p>
   <p>You can add as many <i>column=value</i> pairs as you'd like, provided the column referenced is in the csv, or else it will throw an error
