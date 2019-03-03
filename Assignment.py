@@ -24,7 +24,7 @@ try:
                 #insert code here to change what happens on success
                 print(row)
             else:                   #if one or more failed increment unsuccessful counter.
-                #insert code here to 
+                #insert code here to change failure behavior
                 unsuccessful += 1
         print("Successful: "+str(successful))
         print("Unsuccessful: "+str(unsuccessful))      
@@ -39,4 +39,4 @@ except Exception as e:
 #2. Assumes a header row. It is quite possible to have an indicator parameter to tell the script if there is a header row. I chose
 #   to exclude that for ease of use and given that parameters had column names its likely that this would be used on csvs with headers
 #
-#3. In real life I would just usew Pandas for this
+#3. In real life I would just use Pandas for this
